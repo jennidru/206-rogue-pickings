@@ -156,7 +156,7 @@ header nav ul li a{
 footer {
 	display: flex;
 	flex-flow: row wrap;
-	border-top: 3px solid #eee;
+	border-top: 1px solid #eee;
 	text-align: center;
 	width: 100%;
 	justify-content: center;
