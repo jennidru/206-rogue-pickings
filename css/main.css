@@ -15,11 +15,16 @@ body {
 	font-size: 1em;
 }
 
-/*--------Desktop container... change this!!!-------*/
-.container{
+
+/*-----------MOBILE FIRST STYLES-----------*/
+.container {
 	max-width: 1200px;
-	margin: 0 auto;
-}
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	}
 
 h1,
 h2,
@@ -53,6 +58,7 @@ header {
 	height: 110px;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
+	width: 100%;
 }
 
 header h1 {
@@ -75,7 +81,7 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 0.875em;
 	padding: 0 10px;
 	display: inline;
 }
@@ -111,7 +117,7 @@ header nav ul li a{
 }
 .main-title p {
 	padding: 0;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 25px;
 }
 
@@ -149,12 +155,12 @@ header nav ul li a{
 
 .reviews {
 	color: #333;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 21px;
 }
 
 .address {
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 }
 
@@ -170,5 +176,29 @@ footer span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 14px;
+	font-size: 0.875em;
+}
+
+
+
+
+
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+ 
+}
+ 
+
+
+
+
+
+
+
+@media all and (min-width:1200px) {
+    .container{
+		max-width: 1200px;
+		margin: 0 auto;
+	}
 }
